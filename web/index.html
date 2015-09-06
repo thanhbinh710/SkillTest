@@ -6,18 +6,330 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>SkillTest</title>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/skilltestcss.css" rel="stylesheet">
+        <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+        
+        
     </head>
     <body>
-        <div>TODO write content</div>
-        <div class="row">
-            <div class="col-xs-6">Left</div>
-            <div class="col-xs-6">Right</div>
+        
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <div class="col-md-6" style="padding:0;">
+                        <div class="nav-collapse collapse">
+                            <ul class="nav">
+                                <li class="active">
+                                  <a href="./index.html">Home</a>
+                                </li>
+                                <li class="">
+                                  <a href="./index.html">Features</a>
+                                </li>
+                                <li class="">
+                                  <a href="./index.html">Portfolio</a>
+                                </li>
+                                <li class="">
+                                  <a href="./index.html">Blog</a>
+                                </li>
+                                <li class="">
+                                  <a href="./index.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6" id="navbar-icons">    
+                        <div class="col-md-4" style="padding:0">
+                            <i class="glyphicon glyphicon-envelope" style="float:right;">&nbsp;email@email.com</i>
+                        </div>
+                        <div class="col-md-4" style="padding:0">
+                            <i class="glyphicon glyphicon-earphone" style="float:right;"> +000 000 000</i>
+                        </div>
+                        <div class="col-md-4" style="padding:0">
+                            <img src="./img/facebookicon.png" id="navbar-icon-img"/>
+                            <img src="./img/twittericon.png" id="navbar-icon-img"/>
+                            <img src="./img/icon.png" id="navbar-icon-img"/>
+                            <img src="./img/linkedinicon.png" id="navbar-icon-img"/>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
         </div>
+        
+        <div class="container-fluid" id="header-section">
+            <img src="./img/logo.png" style="vertical-align:middle;"/>
+            <select class="selectpicker">    
+                <option></option>
+                <option>Option 1</option>
+                <option>Option 2</option>
+                <option>Option 3</option>
+            </select>
+            <i class="glyphicon glyphicon-align-justify" style="position: absolute;right: 21%;padding-top: 7.3%;"></i>
+        </div>
+        
+        <div class="container-fluid" style="border:0;padding: 0;margin: 0; width:100%;">
+            <img src="./img/background.png" style="width: 100%;"/>
+        </div>
+        
+        <div class="container-fluid" style="border:0;padding: 0;margin: 0; width:100%;">
+            <div class="equal-spaceing">
+                <div id="num-box">
+                    01<hr>
+                </div>
+                <center>Web Design and Development</center>
+                <img src="./img/brushicon.png"/>
+            </div>
+            <div class="equal-spaceing">
+                <div id="num-box">
+                    02 <hr>
+                </div>
+                <center>Logo, Illustrations and Graphics</center>
+                <img src="./img/graphicsicon.png"/>
+            </div>
+            <div class="equal-spaceing">
+                <div id="num-box">
+                    03<hr>
+                </div>
+                <center>Fast and reliable Management support</center>
+                <img src="./img/supporticon.png"/>
+            </div>
+            <div class="equal-spaceing">
+                <div id="num-box">
+                    04<hr>
+                </div>
+                <center>Coding HTML, CSS and JavaScript</center>
+                <img src="./img/css.png"/>
+            </div>
+            <div class="equal-spaceing">
+                <div id="num-box">
+                    05<hr></div>
+                <center>Branding and Commercial Productivity</center>
+                <img src="./img/productivity.png"/>
+            </div>
+        </div>
+        
+        <div class="container-fluid" style="padding-right:0; padding-top: 20px">
+            <div class="col-md-9" style="padding:0;padding-top: 10px;left: 15px">
+                <div class="title">LATEST NEWS<hr></div>
+                <div class="col-md-4" style="padding:0;padding-top: 10px;left: 15px">
+                    <img src="./img/calendar.png"/>
+                    <br/>
+                    <br/>
+                    <img src="./img/image1.png"/>
+                    <div style="padding-top:20px; font-weight: bold; font-size: 18px">Magna ultrices etiam</div>
+                    <div style="padding-top:15px; font-size: 14px; padding-right: 11em; margin-bottom: 60px;">Lorem! montes a habitasse sit cu facilisis! Integer. Et, aliqua, urna habitasse ultrices! Scelerisque eros phasellus etiam, auctor vut porttitor magnis, turpis, in. Adipiscing nec vut dolor, velit purus lorem</div>
+                    <div class="readmore">
+                        <div id="text" onclick="readMore()">Read More</div>
+                        <img src="./img/right-arrow.PNG" style="width: 20px;"/>
+                    </div>
+                </div>
+                <div class="col-md-4" style="padding:0;padding-top: 10px;left: 15px">
+                    <img src="./img/calendar.png"/>
+                    <br/>
+                    <br/>
+                    <img src="./img/image2.png"/>
+                    <div style="padding-top:20px; font-weight: bold; font-size: 18px">Magna ultrices etiam</div>
+                    <div style="padding-top:15px; font-size: 14px; padding-right: 11em; padding-bottom: 60px;">Lorem! montes a habitasse sit cu facilisis! Integer. Et, aliqua, urna habitasse ultrices! Scelerisque eros phasellus etiam, auctor vut porttitor magnis, turpis, in. Adipiscing nec vut dolor, velit purus lorem</div>
+                    <div class="readmore">
+                        <div id="text" onclick="readMore()">Read More</div>
+                        <img src="./img/right-arrow.PNG" style="width: 20px;"/>
+                    </div>
+                </div>
+                <div class="col-md-4" style="padding:0;padding-top: 10px;left: 15px">
+                    <img src="./img/calendar.png"/>
+                    <br/>
+                    <br/>
+                    <img src="./img/image3.png"/>
+                    <div style="padding-top:20px; font-weight: bold; font-size: 18px">Magna ultrices etiam</div>
+                    <div style="padding-top:15px; font-size: 14px; padding-right: 11em; margin-bottom: 60px;">Lorem! montes a habitasse sit cu facilisis! Integer. Et, aliqua, urna habitasse ultrices! Scelerisque eros phasellus etiam, auctor vut porttitor magnis, turpis, in. Adipiscing nec vut dolor, velit purus lorem</div>
+                    <div class="readmore">
+                        <div id="text" onclick="readMore()">Read More</div>
+                        <img src="./img/right-arrow.PNG" style="width: 20px;"/>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3" style="padding:0;padding-top: 10px;left: 15px">
+                <div class="title">ABOUT US<hr></div>
+                <div class="text-box">
+                    WE MAKE WITH PASSION AND LOVE
+                </div>
+                <br/>
+                <img src="./img/image4.png"/>
+                <br/>
+                <br/>
+                <img src="./img/image6.png"/>
+                <br/>
+                <br/>
+                <button class="btn btn-large" style="float: right; margin-right:80px" onclick="contactUs()">
+                    CONTACT US
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+        
+        <div class="container-fluid" style="border:0;padding: 0;margin: 0;">
+            <img src="./img/image7.png" style="width: 100%;"/>
+        </div>
+        
+        <div class="container-fluid" style="padding-right:0; padding-top: 40px">
+            <div class="arrows"><img src="./img/left-arrow.PNG"/><img src="./img/right-arrow.PNG"/></div>
+            <div class="title">OUR WORK<hr></div>
+            <div class="col-md-3" style="padding:0;padding-top: 10px;left: 15px">
+                <img src="./img/image8.png" style="width: 90%;"/>
+                <div class="bubble">
+                    <div id="text"> 
+                        <span style="font-size:22px;padding-bottom:5px;">PROJECT TITLE</span>
+                        <hr>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic nam eaque odit libero optio aliquam
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3" style="padding:0;padding-top: 10px;left: 15px">
+                <img src="./img/image9.png" style="width: 90%;"/>
+                <div class="bubble">
+                    <div id="text"> 
+                        <span style="font-size:22px;padding-bottom:5px;">PROJECT TITLE</span>
+                        <hr>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic nam eaque odit libero optio aliquam
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3" style="padding:0;padding-top: 10px;left: 15px">
+                <img src="./img/image10.png" style="width: 90%;"/>
+                <div class="bubble">
+                    <div id="text"> 
+                        <span style="font-size:22px;padding-bottom:5px;">PROJECT TITLE</span>
+                        <hr>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic nam eaque odit libero optio aliquam
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3" style="padding:0;padding-top: 10px;left: 15px">
+                <img src="./img/image11.png" style="width: 90%;"/>
+                <div class="bubble">
+                    <div id="text"> 
+                        <span style="font-size:22px;padding-bottom:5px;">PROJECT TITLE</span>
+                        <hr>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic nam eaque odit libero optio aliquam
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid" style="padding-right:0; padding-top: 40px">
+            <div class="arrows"><img src="./img/left-arrow.PNG"/><img src="./img/right-arrow.PNG"/></div>
+            <div class="title">TESTIMONIALS<hr></div>
+            <div class="col-md-4" style="padding:0;padding-top: 10px;left: 15px">
+                <div class="testimony-bubble">
+                    <div id="text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, eveniet!</div>
+                </div>
+                
+                <div class="col-md-2" style="padding:0;padding-top: 10px;left: 15px">
+                    <img src="./img/geogre.png" style="padding-top:25px;"/>
+                </div>
+                <div class="col-md-6" style="padding:0;padding-top: 10px;left: 15px">
+                    <div style="padding-left: 5px; padding-top:20px; font-weight: bold; font-size: 28px">Geogre Clooney</div>
+                    <div style="padding-left: 5px; padding-top:15px; font-size: 22px">Actor and Filmmaker</div>
+                </div>
+            </div>
+            
+            <div class="col-md-4" style="padding:0;padding-top: 10px;left: 15px">
+                <div class="testimony-bubble">
+                    <div id="text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, eveniet!</div>
+                </div>
+                
+                <div class="col-md-2" style="padding:0;padding-top: 10px;left: 15px">
+                    <img src="./img/geogre.png" style="padding-top:25px;"/>
+                </div>
+                <div class="col-md-6" style="padding:0;padding-top: 10px;left: 15px">
+                    <div style="padding-left: 5px; padding-top:20px; font-weight: bold; font-size: 28px">Geogre Clooney</div>
+                    <div style="padding-left: 5px; padding-top:15px; font-size: 22px">Actor and Filmmaker</div>
+                </div>
+            </div>
+            
+            <div class="col-md-4" style="padding:0;padding-top: 10px;left: 15px">
+                <div class="testimony-bubble">
+                    <div id="text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, eveniet!</div>
+                </div>
+                
+                <div class="col-md-2" style="padding:0;padding-top: 10px;left: 15px">
+                    <img src="./img/geogre.png" style="padding-top:25px;"/>
+                </div>
+                <div class="col-md-6" style="padding:0;padding-top: 10px;left: 15px">
+                    <div style="padding-left: 5px; padding-top:20px; font-weight: bold; font-size: 28px">Geogre Clooney</div>
+                    <div style="padding-left: 5px; padding-top:15px; font-size: 22px">Actor and Filmmaker</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid" style="padding-right:0; padding-top: 40px;margin-bottom: 40px">
+            <div class="col-md-12" style="background-color: #ebebeb; border-bottom: solid 1px;">
+                <div class="col-md-6" style="padding:0;"><img src="./img/jackdaniels.png" style="width:100%;padding-top:2em"/></div>
+                <div class="col-md-6" id="featured-vid">
+                    <div id="text"> 
+                        <span style="font-size:35px;padding-bottom:5px;">PROJECT TITLE</span>
+                        <hr>
+                        <img src="img/camera.png" style="width: 15em;"/>
+                        <br/>
+                        <div style="padding-top:20px; font-weight: bold; font-size: 25px">Magna ultrices etiam</div>
+                        <div style="padding-top:15px; font-size: 20px; padding-right: 11em; margin-bottom: 30px;">
+                            Lorem! montes a habitasse sit cu facilisis! Integer. Et, aliqua, urna habitasse ultrices! Scelerisque eros phasellus etiam, auctor vut porttitor magnis, turpis, in. Adipiscing nec vut dolor, velit purus lorem
+                            Lorem! montes a habitasse sit cu facilisis! Integer. Et, aliqua, urna habitasse ultrices! Scelerisque eros phasellus etiam, auctor vut porttitor magnis, turpis, in. Adipiscing nec vut dolor, velit purus lorem
+                        </div>
+                        <button class="btn btn-large" style="float: right; margin-right:12em; margin-bottom: 50px;" onclick="readMore()">
+                        READ MORE
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-12" style="background-color: #353a3b; width:100%; padding-bottom: 2em; padding-top: 2em;">
+            <div class="col-md-3" style="padding:0;padding-top: 10px;left: 15px">
+                <span style="color:white; font-size:30px;padding:2em 1.5em;">NEWSLETTER</span>
+                <div style="color: #536c76; padding:2em; font-size:20px;">
+                    Lorem! montes a habitasse sit cu facilisis! Integer. Et, aliqua, urna habitasse ultrices! Scelerisque eros phasellus etiam, auctor vut porttitor magnis, turpis, in. Adipiscing nec vut dolor, velit purus lorem
+                </div>
+                
+                <div class="input-group">
+                    <input type="text" class="form-control">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="button" style="padding:0.5em;margin-left: -15px; margin-top: -10px;">Send</button>
+                  </span>s
+                </div>
+                
+            </div>
+            <div class="col-md-3" style="padding:0;padding-top: 10px;left: 15px">
+                <span style="color:white; font-size:30px;padding:2em 1.5em;">CONTACT US</span>
+                <div style="color: #536c76; padding:2em; font-size:20px;">
+                    Mail <span style="color:white">info@nepalhills.com</span>
+                    <br/>
+                    Phone <span style="color:white">+00 000 000</span>
+                    <br/>
+                    Address <span style="color:white">12 Street Name, City, UK</span>
+                </div>
+            </div>
+            <div class="col-md-3" style="padding:0;padding-top: 10px;left: 15px">
+                <span style="color:white; font-size:30px;padding:2em 1.5em;">TWITTER FEED</span>
+                <div style="color: #536c76; padding:2em; font-size:20px;">
+                    loading tweets
+                </div>
+            </div>
+            <div class="col-md-3" style="padding:0;padding-top: 10px;left: 15px">
+                <span style="color:white; font-size:30px;padding:2em 1.5em;">FOLLOW US ON</span>
+                <img src="img/image12.png" style="padding: 2em"/>
+            </div>
+        </div>
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/skillTest.js" type="text/javascript"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
